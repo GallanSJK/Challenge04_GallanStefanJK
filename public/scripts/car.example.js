@@ -67,6 +67,49 @@ class Car {
               </div>
             </div>
             
+            <div class="col-md-6 col-lg-4">
+              <div class="card">
+                <div class="card-body">
+                  <img class="img-fluid" src="${this.image}" alt="${this.manufacture}">
+                  <h3><b>${this.manufacture}</b> (<b>${this.model}</b>)</h3>
+                  <h4><b>Rp. ${this.rentPerDay} / Hari</b></h4>
+                  
+                  <p>Plat Nomer: <b>${this.plate}</b></p>
+                  <p>Tipe Driver: <b>${this.typeDriver}</b></p>
+                  <p>Tersedia Pada: <b>${this.availableAt}</b></p>
+                  <p><b>${this.description}</b></p>
+                  <p>Kapasitas : <b>${this.capacity}</b></p>
+                  <p>Transmisi : <b>${this.transmission}</b></p>
+                  <p>Tahun : <b>${this.year}</b></p>
+                  
+                  <button class="btn-fluid btn btn-success btn-pilih-mobil">
+                  Pilih Mobil
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+              <div class="card">
+                <div class="card-body">
+                  <img class="img-fluid" src="${this.image}" alt="${this.manufacture}">
+                  <h3><b>${this.manufacture}</b> (<b>${this.model}</b>)</h3>
+                  <h4><b>Rp. ${this.rentPerDay} / Hari</b></h4>
+                  
+                  <p>Plat Nomer: <b>${this.plate}</b></p>
+                  <p>Tipe Driver: <b>${this.typeDriver}</b></p>
+                  <p>Tersedia Pada: <b>${this.availableAt}</b></p>
+                  <p><b>${this.description}</b></p>
+                  <p>Kapasitas : <b>${this.capacity}</b></p>
+                  <p>Transmisi : <b>${this.transmission}</b></p>
+                  <p>Tahun : <b>${this.year}</b></p>
+                  
+                  <button class="btn-fluid btn btn-success btn-pilih-mobil">
+                  Pilih Mobil
+                  </button>
+                </div>
+              </div>
+            </div>
     </div>`;
   }
 }
