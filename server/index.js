@@ -40,7 +40,7 @@ const prepareFile = async (url) => {
 
 //membuat server
 http.createServer(async (req, res) => {
-  if(req.url === '/carimobil'){ // routing bila di browser membuka link /tentang maka akan membuka file /about.html
+  if(req.url === '/cars'){ // routing bila di browser membuka link /tentang maka akan membuka file /about.html
     req.url = '/cari_mobil.html'
   }
   const file = await prepareFile(req.url); // memanggil fungsi prepareFile dengan parameter url
