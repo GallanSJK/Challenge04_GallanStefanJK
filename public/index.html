@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page - Binar Rental Car</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="shortcut icon" href="" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar fixed-top navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="/img/biru.png"
+            alt="Logo"
+            class="d-inline-block align-text-top"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#navbarOffcanvasLg"
+          aria-controls="navbarOffcanvasLg"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end flex-grow-0"
+          data-bs-scroll="true"
+          tabindex="-1"
+          id="navbarOffcanvasLg"
+          aria-labelledby="navbarOffcanvasLgLabel"
+          style="max-width: 50%;"
+        >
+          <div class="offcanvas-header">
+            <h2 class="offcanvas-title" id="offcanvasNavbarLabel">BCR</h2>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav gap-4">
+              <li class="nav-item">
+                <a class="nav-link fw-bold" href="#our-services">Our Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold" href="#why-us">Why Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold" href="#testimonial">Testimonial</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold" href="#faq">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <button
+                  class="btn btn-success btn-regist align-items-center"
+                  type="submit"
+                >
+                  Register
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section id="cover">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 col-lg-6">
+            <h1>Sewa & Rental Mobil Terbaik di kawasan (Lokasimu)</h1>
+            <p>
+              Selamat datang di Binar Car Rental. Kami menyediakan mobil
+              kualitas terbaik dengan harga terjangkau. Selalu siap melayani
+              kebutuhanmu untuk sewa mobil selama 24 jam.
+            </p>
+            <a href="cari_mobil.html">
+            <button class="btn btn-success btn-sewa" type="submit">
+              Mulai Sewa Mobil
+            </button>
+            </a>
+          </div>
+          <div class="col-12 col-lg-6" style="padding-right: 0;">
+            <img class="img-fluid" src="/img/mobil.png">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Our-Services -->
+
+    <section id="our-services" class="our-services">
+      <div class="container">
+        <div class="row header">
+          <div class="col-12 col-lg-6 d-flex justify-content-lg-end">
+            <img class="img-fluid" src="/img/service.png">
+          </div>
+          <div class="col-12 col-lg-6 ps-md-5 mt-4">
+            <h2>Best Car Rental for any kind of trip in (Lokasimu)!</h2>
+            <p>
+              Sewa mobil di (Lokasimu) bersama Binar Car Rental jaminan harga
+              lebih murah dibandingkan yang lain, kondisi mobil baru, serta
+              kualitas pelayanan terbaik untuk perjalanan wisata, bisnis,
+              wedding, meeting, dll.
+            </p>
+            <div>
+              <ul>
+                <li>Sewa Mobil Dengan Supir di Bali 12 Jam</li>
+                <li>Sewa Mobil Lepas Kunci di Bali 24 Jam</li>
+                <li>Sewa Mobil Jangka Panjang Bulanan</li>
+                <li>Gratis Antar - Jemput Mobil di Bandara</li>
+                <li>Layanan Airport Transfer / Drop In Out</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Why-Us -->
+
+    <section id="why-us" class="why-us">
+      <div class="container">
+        <div class="row header">
+          <div class="col-12 col-lg-12">
+            <h2>Why Us?</h2>
+            <p>Mengapa harus pilih Binar Car Rental?</p>
+          </div>
+        </div>
+            <div class="row mt-4 g-4">
+              <div class="col-md-6 col-lg-3">
+                <div class="card">
+                  <div class="card-body">
+                    <img src="/img/icon_complete.png">
+                    <h3>Mobil Lengkap</h3>
+                    <p class="item">
+                      Tersedia banyak pilihan mobil, kondisi masih baru, bersih
+                      dan terawat
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                <div class="card">
+                  <div class="card-body">
+                    <img src="/img/icon_price.png">
+                    <h3>Harga Murah</h3>
+                    <p class="item">
+                      Harga murah dan bersaing, bisa bandingkan harga kami
+                      dengan rental mobil lain
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                <div class="card">
+                  <div class="card-body">
+                    <img src="/img/icon_24hrs.png">
+                    <h3>Layanan 24 Jam</h3>
+                    <p class="item">
+                      Siap melayani kebutuhan Anda selama 24 jam nonstop. Kami
+                      juga tersedia di akhir minggu
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                <div class="card">
+                  <div class="card-body">
+                    <img src="/img/icon_professional.png">
+                    <h3>Sopir Profesional</h3>
+                    <p class="item">
+                      Sopir yang profesional, berpengalaman, jujur, ramah dan
+                      selalu tepat waktu
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+      </div>
+    </section>
+
+    <!-- Section Testimonial -->
+
+    <section id="testimonial" class="testimonial">
+      <div class="col-12 col-lg-12 text-center">
+            <h2>Testimonial</h2>
+            <p>Berbagai review positif dari para pelanggan kami</p>
+          </div>
+          <!-- Carousel -->
+          <div class="carousel-wrapper">
+            <div class="swiper-container mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col-md-12 col-lg-3 pt-lg-3 d-grid justify-content-center">
+                          <img src="/img/img_photo.png" />
+                        </div>
+                        <div class="col-md-12 col-lg-9">
+                          <p class="star"><label>⭐⭐⭐⭐⭐</label></p>
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Illum explicabo, suscipit iusto fuga facilis
+                            ea blanditiis vel odio aspernatur pariatur!
+                          </p>
+                          <p class="fw-bold">
+                            John Dee 32, Bromo
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col-md-12 col-lg-3 pt-lg-3 d-grid justify-content-center">
+                          <img src="/img/img_photo1.png" />
+                        </div>
+                        <div class="col-md-12 col-lg-9">
+                          <p class="star"><label>⭐⭐⭐⭐⭐</label></p>
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Illum explicabo, suscipit iusto fuga facilis
+                            ea blanditiis vel odio aspernatur pariatur!
+                          </p>
+                          <p class="fw-bold">
+                            John Dee 32, Bromo
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col-md-12 col-lg-3 pt-lg-3 d-grid justify-content-center">
+                          <img src="/img/img_photo.png" />
+                        </div>
+                        <div class="col-md-12 col-lg-9">
+                          <p class="star"><label>⭐⭐⭐⭐⭐</label></p>
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Illum explicabo, suscipit iusto fuga facilis
+                            ea blanditiis vel odio aspernatur pariatur!
+                          </p>
+                          <p class="fw-bold">
+                            John Dee 32, Bromo
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col-md-12 col-lg-3 pt-lg-3 d-grid justify-content-center">
+                          <img src="/img/img_photo1.png" />
+                        </div>
+                        <div class="col-md-12 col-lg-9">
+                          <p class="star"><label>⭐⭐⭐⭐⭐</label></p>
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Illum explicabo, suscipit iusto fuga facilis
+                            ea blanditiis vel odio aspernatur pariatur!
+                          </p>
+                          <p class="fw-bold">
+                            John Dee 32, Bromo
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col-md-12 col-lg-3 pt-lg-3 d-grid justify-content-center">
+                          <img src="/img/img_photo.png" />
+                        </div>
+                        <div class="col-md-12 col-lg-9">
+                          <p class="star"><label>⭐⭐⭐⭐⭐</label></p>
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Illum explicabo, suscipit iusto fuga facilis
+                            ea blanditiis vel odio aspernatur pariatur!
+                          </p>
+                          <p class="fw-bold">
+                            John Dee 32, Bromo
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col-md-12 col-lg-3 pt-lg-3 d-grid justify-content-center">
+                          <img src="/img/img_photo1.png" />
+                        </div>
+                        <div class="col-md-12 col-lg-9">
+                          <p class="star"><label>⭐⭐⭐⭐⭐</label></p>
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Illum explicabo, suscipit iusto fuga facilis
+                            ea blanditiis vel odio aspernatur pariatur!
+                          </p>
+                          <p class="fw-bold">
+                            John Dee 32, Bromo
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-navigation">
+                <button class="swiper-prev"><</button>
+                <button class="swiper-next">></button>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <!-- Section Banner -->
+
+    <section id="banner">
+      <div class="container-sm">
+        <div class="mx-auto">
+          <div class="text-center banner">
+            <h1>Sewa Mobil di (Lokasimu) Sekarang</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <button class="btn btn-success btn-sewa-mobil" type="submit">
+              Mulai Sewa Mobil
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section FAQ -->
+
+    <section id="faq" class="faq">
+      <div class="container">
+        <div class="row header">
+          <div class="col-12 col-lg-5">
+            <h2>Frequently Asked Question</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+          </div>
+          <div class="col-12 col-lg-7">
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+              <div class="accordion-item mb-4">
+                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseOne"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseOne"
+                  >
+                    Apa saja syarat yang dibutuhkan?
+                  </button>
+                </h2>
+                <div
+                  id="panelsStayOpen-collapseOne"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="panelsStayOpen-headingOne"
+                >
+                  <div class="accordion-body">
+                    <strong>This is the first item's accordion body.</strong> It
+                    is shown by default, until the collapse plugin adds the
+                    appropriate classes that we use to style each element. These
+                    classes control the overall appearance, as well as the
+                    showing and hiding via CSS transitions. You can modify any
+                    of this with custom CSS or overriding our default variables.
+                    It's also worth noting that just about any HTML can go
+                    within the <code>.accordion-body</code>, though the
+                    transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item mb-4">
+                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseTwo"
+                  >
+                    Berapa hari minimal sewa mobil lepas kunci?
+                  </button>
+                </h2>
+                <div
+                  id="panelsStayOpen-collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="panelsStayOpen-headingTwo"
+                >
+                  <div class="accordion-body">
+                    <strong>This is the second item's accordion body.</strong>
+                    It is hidden by default, until the collapse plugin adds the
+                    appropriate classes that we use to style each element. These
+                    classes control the overall appearance, as well as the
+                    showing and hiding via CSS transitions. You can modify any
+                    of this with custom CSS or overriding our default variables.
+                    It's also worth noting that just about any HTML can go
+                    within the <code>.accordion-body</code>, though the
+                    transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item mb-4">
+                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseThree"
+                  >
+                    Berapa hari sebelumnya sabaiknya booking sewa mobil?
+                  </button>
+                </h2>
+                <div
+                  id="panelsStayOpen-collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="panelsStayOpen-headingThree"
+                >
+                  <div class="accordion-body">
+                    <strong>This is the third item's accordion body.</strong> It
+                    is hidden by default, until the collapse plugin adds the
+                    appropriate classes that we use to style each element. These
+                    classes control the overall appearance, as well as the
+                    showing and hiding via CSS transitions. You can modify any
+                    of this with custom CSS or overriding our default variables.
+                    It's also worth noting that just about any HTML can go
+                    within the <code>.accordion-body</code>, though the
+                    transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item mb-4">
+                <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseFour"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseFour"
+                  >
+                    Apakah Ada biaya antar-jemput?
+                  </button>
+                </h2>
+                <div
+                  id="panelsStayOpen-collapseFour"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="panelsStayOpen-headingFour"
+                >
+                  <div class="accordion-body">
+                    <strong>This is the fourth item's accordion body.</strong>
+                    It is hidden by default, until the collapse plugin adds the
+                    appropriate classes that we use to style each element. These
+                    classes control the overall appearance, as well as the
+                    showing and hiding via CSS transitions. You can modify any
+                    of this with custom CSS or overriding our default variables.
+                    It's also worth noting that just about any HTML can go
+                    within the <code>.accordion-body</code>, though the
+                    transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseFive"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseFive"
+                  >
+                    Bagaimana jika terjadi kecelakaan
+                  </button>
+                </h2>
+                <div
+                  id="panelsStayOpen-collapseFive"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="panelsStayOpen-headingFive"
+                >
+                  <div class="accordion-body">
+                    <strong>This is the fifth item's accordion body.</strong> It
+                    is hidden by default, until the collapse plugin adds the
+                    appropriate classes that we use to style each element. These
+                    classes control the overall appearance, as well as the
+                    showing and hiding via CSS transitions. You can modify any
+                    of this with custom CSS or overriding our default variables.
+                    It's also worth noting that just about any HTML can go
+                    within the <code>.accordion-body</code>, though the
+                    transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Footer -->
+
+    <footer class="container">
+      <div class="row">
+        <div class="col-12 col-lg-3">
+          <p>Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000</p>
+          <p>binarcarrental@gmail.com</p>
+          <p>081-233-334-808</p>
+        </div>
+        <div class="col-12 col-lg-2">
+          <p><a href="#our-services">Our Services</a></p>
+          <p><a href="#why-us">Why Us</a></p>
+          <p><a href="#testimonial">Testimonial</a></p>
+          <p><a href="#faq">FAQ</a></p>
+        </div>
+        <div class="col-12 col-lg-3">
+          <p>Connect With Us:</p>
+          <p>
+            <a href="#">
+              <img src="/img/icon_facebook.png" alt="" />
+            </a>
+            <a href="#">
+              <img src="/img/icon_instagram.png" alt="" />
+            </a>
+            <a href="#">
+              <img src="/img/icon_mail.png" alt="" />
+            </a>
+            <a href="#">
+              <img src="/img/icon_twitter.png" alt="" />
+            </a>
+            <a href="#">
+              <img src="/img/icon_twitch.png" alt="" />
+            </a>
+          </p>
+        </div>
+        <div class="col-12 col-lg-3">
+          <p>Copyright Binar 2022</p>
+          <p>
+            <a href="#">
+              <img src="/img/biru.png" alt="Logofooter" />
+            </a>
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        navigation: {
+          nextEl: ".swiper-next",
+          prevEl: ".swiper-prev",
+        },
+        breakpoints:{
+                
+        }
+      });
+    </script>
+    
+  </body>
+</html>

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page - Binar Rental Car</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="shortcut icon" href="" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar fixed-top navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="./img/biru.png"
+            alt="Logo"
+            class="d-inline-block align-text-top"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#navbarOffcanvasLg"
+          aria-controls="navbarOffcanvasLg"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end flex-grow-0"
+          data-bs-scroll="true"
+          tabindex="-1"
+          id="navbarOffcanvasLg"
+          aria-labelledby="navbarOffcanvasLgLabel"
+          style="max-width: 50%;"
+        >
+          <div class="offcanvas-header">
+            <h2 class="offcanvas-title" id="offcanvasNavbarLabel">BCR</h2>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav gap-4">
+              <li class="nav-item">
+                <a class="nav-link fw-bold" href="#our-services">Our Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold" href="#why-us">Why Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold" href="#testimonial">Testimonial</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold" href="#faq">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <button
+                  class="btn btn-success btn-regist align-items-center"
+                  type="submit"
+                >
+                  Register
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section id="cover">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 col-lg-6">
+            <h1>Sewa & Rental Mobil Terbaik di kawasan (Lokasimu)</h1>
+            <p>
+              Selamat datang di Binar Car Rental. Kami menyediakan mobil
+              kualitas terbaik dengan harga terjangkau. Selalu siap melayani
+              kebutuhanmu untuk sewa mobil selama 24 jam.
+            </p>
+          </div>
+          <div class="col-12 col-lg-6" style="padding-right: 0;">
+            <img class="img-fluid" src="./img/mobil.png">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="cari">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div class="shadow p-3 rounded">
+              <div class="row row-cols-lg-auto g-0 justify-content-around">
+                <div class="col-12 col-lg-2">
+                  <label for="exampleDataList" class="form-label">Tipe Driver</label>
+                  <select id="tipedriver" class="form-select" aria-label="Default select example">
+                    <option value="0" selected>Pilih Tipe Driver</option>
+                    <option value="Dengan Supir">Dengan Sopir</option>
+                    <option value="Lepas Kunci">Tanpa Sopir (Lepas Kunci)</option>
+                  </select>
+                </div>
+        
+                <div class="col-12 col-lg-2">
+                  <label for="exampleDataList" class="form-label">Tanggal</label>
+                  <input id="tersedia" placeholder="Select date" type="date" id="example" class="form-control">
+                </div>
+        
+                <!-- <div class="col-12 col-lg-2">
+                  <label for="exampleDataList" class="form-label">Waktu</label>
+                  <input id="waktu" placeholder="Select date" type="time" id="example" class="form-control">
+                </div> -->
+                
+                <div class="col-12 col-lg-2">
+                  <label for="exampleDataList" class="form-label">Waktu Jemput/Ambil</label>
+                  <select class="form-select" aria-label="Default select example">
+                    <option selected>Pilih Waktu</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                </div>
+              
+                <div class="col-12 col-lg-3">
+                  <label for="exampleDataList" class="form-label">Jumlah Penumpang (Optional)</label>
+                  <input id="penumpang" type="text" class="form-control" placeholder="Jumlah Penumpang">
+                </div>
+                <div>
+                  <button id="filter" class="btn btn-success btn-filter">
+                    Cari Mobil
+                  </button>
+                </div>
+                <!-- <button id="load-btn">Load</button>
+                <button id="clear-btn">Clear</button> -->
+                
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="cars-container"></section>
+
+    <!-- Section Footer -->
+
+    <footer class="container">
+      <div class="row">
+        <div class="col-12 col-lg-3">
+          <p>Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000</p>
+          <p>binarcarrental@gmail.com</p>
+          <p>081-233-334-808</p>
+        </div>
+        <div class="col-12 col-lg-2">
+          <p><a href="#our-services">Our Services</a></p>
+          <p><a href="#why-us">Why Us</a></p>
+          <p><a href="#testimonial">Testimonial</a></p>
+          <p><a href="#faq">FAQ</a></p>
+        </div>
+        <div class="col-12 col-lg-3">
+          <p>Connect With Us:</p>
+          <p>
+            <a href="#">
+              <img src="./img/icon_facebook.png" alt="" />
+            </a>
+            <a href="#">
+              <img src="./img/icon_instagram.png" alt="" />
+            </a>
+            <a href="#">
+              <img src="./img/icon_mail.png" alt="" />
+            </a>
+            <a href="#">
+              <img src="./img/icon_twitter.png" alt="" />
+            </a>
+            <a href="#">
+              <img src="./img/icon_twitch.png" alt="" />
+            </a>
+          </p>
+        </div>
+        <div class="col-12 col-lg-3">
+          <p>Copyright Binar 2022</p>
+          <p>
+            <a href="#">
+              <img src="./img/biru.png" alt="Logofooter" />
+            </a>
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script type="text/javascript" src="./scripts/binar.js"></script>
+    <script type="text/javascript" src="./scripts/app.example.js"></script>
+    <script type="text/javascript" src="./scripts/car.example.js"></script>
+    <script type="text/javascript" src="./scripts/main.example.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        navigation: {
+          nextEl: ".swiper-next",
+          prevEl: ".swiper-prev",
+        },
+        breakpoints:{
+                
+        }
+      });
+    </script>
+    
+  </body>
+</html>
