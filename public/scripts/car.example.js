@@ -54,7 +54,6 @@ class Car {
                   
                   <p>Plat Nomer: <b>${this.plate}</b></p>
                   <p>Tipe Driver: <b>${this.typeDriver}</b></p>
-                  <p>Tersedia Pada: <b>${this.availableAt}</b></p>
                   <p><b>${this.description}</b></p>
                   <p>Kapasitas : <b>${this.capacity}</b></p>
                   <p>Transmisi : <b>${this.transmission}</b></p>
@@ -76,7 +75,6 @@ class Car {
                   
                   <p>Plat Nomer: <b>${this.plate}</b></p>
                   <p>Tipe Driver: <b>${this.typeDriver}</b></p>
-                  <p>Tersedia Pada: <b>${this.availableAt}</b></p>
                   <p><b>${this.description}</b></p>
                   <p>Kapasitas : <b>${this.capacity}</b></p>
                   <p>Transmisi : <b>${this.transmission}</b></p>
@@ -98,7 +96,6 @@ class Car {
                   
                   <p>Plat Nomer: <b>${this.plate}</b></p>
                   <p>Tipe Driver: <b>${this.typeDriver}</b></p>
-                  <p>Tersedia Pada: <b>${this.availableAt}</b></p>
                   <p><b>${this.description}</b></p>
                   <p>Kapasitas : <b>${this.capacity}</b></p>
                   <p>Transmisi : <b>${this.transmission}</b></p>

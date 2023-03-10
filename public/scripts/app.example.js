@@ -30,16 +30,16 @@ class App {
     console.log(penumpang)
     const tersedia = document.getElementById("tersedia").value
     console.log(tersedia)
-    // const waktu = document.getElementById("waktu").value
-    // console.log(waktu)
+    const waktu = document.getElementById("waktu").value
+    console.log(waktu)
     const cars = await Binar.listCars(function(e) {
       // tambahkan fungsi filter
       const td = e.typeDriver === driver;
       const pe = e.capacity = penumpang;
       const te = e.availableAt = tersedia;
-      // const wkt = e.availableAt = waktu;
+      const wkt = e.availableAt = waktu;
     
-      return td && pe && te
+      return td && pe && te && wkt
     });
     Car.init(cars);
     document.getElementById("cars-container").innerHTML = ''
